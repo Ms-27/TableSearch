@@ -31,7 +31,7 @@ public class TableSearch {
 		// on incrémente la valeur de ligne
 			cell[0]++;
 		}
-		// on 
+		// on retourne les valeurs -1,-1 si <s> n'est pas dans le tableau
 		cell[0] = -1;
 		cell[1] = -1;
 		return cell;	
